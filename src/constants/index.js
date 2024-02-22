@@ -169,7 +169,7 @@ import {
     {
       name: "Winter In Tulsa",
       description:
-        "An interactive website focusing on tourism in Tulsa. The website curates engaging winter activities and provides users with key information about each event, all while promoting a festive, Christmasy atmosphere.",
+        "An interactive website focusing on tourism in Tulsa. The website curates engaging winter activities and provides users with key information about each event, all while promoting a festive, Christmasy atmosphere. The project was done with Eric Dzyk.",
       tags: [
         {
           name: "HTML",
@@ -183,6 +183,14 @@ import {
           name: "Bootstrap",
           color: "pink-text-gradient",
         },
+        {
+          name: "Figma",
+          color: "violet-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
       ],
       image: winter,
       source_code_link: "https://github.com/SvitLanaPavl/Hacksprint-2023",
@@ -193,11 +201,11 @@ import {
         "The AirBnb Clone project console serves as a versatile developer tool designed for efficient management of objects and data through a command-line interface (CLI). It offers a range of functionalities including creating, updating, destroying, and displaying objects/data. One of its key features is the seamless storage and persistence of objects to a JSON file. This tool is instrumental in abstracting the interaction between the storage engine and object/data management, thereby providing flexibility to easily switch between different storage types. It was a partner project done together with Chris Stephens",
       tags: [
         {
-          name: "python",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "json",
+          name: "JSON",
           color: "green-text-gradient",
         },
         {
@@ -214,15 +222,15 @@ import {
         "A user-friendly to-do application in Vanilla JavaScript incorporating essential features such as task input, search functionality, and intuitive task management.",
       tags: [
         {
-          name: "javascript",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "html",
+          name: "HTML",
           color: "pink-text-gradient",
         },
       ],
