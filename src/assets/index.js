@@ -37,6 +37,7 @@ import ywca from "./company/ywca.webp";
 import consolee from "./consolee.png";
 import todo from "./todo.png";
 import winter from "./winter.png";
+import profile_pic from "./profile_pic.jpeg";
 
 export {
   logo,
@@ -75,5 +76,6 @@ export {
   firebase,
   smiling,
   link,
-  shell
+  shell,
+  profile_pic
 };

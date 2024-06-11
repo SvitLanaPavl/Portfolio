@@ -5,11 +5,15 @@ import {github, link} from '../assets';
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useMobile } from "./canvas/Computers";
 
-
+const Div = ({children, ...props}) => <div {...props}>{children}</div>
+const P = ({children, ...props}) => <p {...props}>{children}</p>
 const ProjectCard = ({index, name, description, tags, image, source_code_link, website}) => {
+  const isMobile = useMobile()
+  const Comp = isMobile ? Div : motion.div
   return (
-    <motion.div
+    <div
     variants={fadeIn("up", "sping", index * 0.5, 0.75)}>
       <Tilt
       options={{
@@ -17,7 +21,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
         scale: 1,
         speed: 450,
       }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-tertiary rounded-2xl sm:w-[360px] p-5 w-full"
       >
         <div className="relative w-full h-[230px]">
           <img src={image}
@@ -45,25 +49,28 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   )
 }
 
 const Works = () => {
+  const isMobile = useMobile()
+  const Comp = isMobile ? Div : motion.div
+  const CompP = isMobile ? P : motion.p
   return (
     <>
-    <motion.div
+    <div
     variants={textVariant()}>
       <p className={styles.sectionSubText}>My Work</p>
       <h2 className={styles.sectionHeadText}>Projects</h2>
-    </motion.div>
+    </div>
     <div className="w-full flex">
-      <motion.p
+      <p
       variants={fadeIn('', '', 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I've done a collection of projects that not only demonstrate my skills but also highlight my journey through both academic and personal endeavors. Each project is succinctly described and accompanied by links to their respective code repositories.
-      </motion.p>
+      </p>
     </div>
     <div className="mt-20 flex flex-wrap gap-7">
       {projects.map((project, index) => (

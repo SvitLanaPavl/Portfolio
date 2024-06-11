@@ -47,7 +47,7 @@ import {
   
   const services = [
     {
-      title: "Front-End Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -105,7 +105,7 @@ import {
       name: "Bootstrap",
       icon: bootstrap,
     },
-    {
+    /*{
       name: "Git",
       icon: git,
     },
@@ -116,7 +116,7 @@ import {
     {
       name: "Visily",
       icon: visily,
-    },
+    },*/
     {
       name: "Docker",
       icon: docker,
@@ -220,7 +220,7 @@ import {
       ],
       image: smiling,
       source_code_link: "https://github.com/SvitLanaPavl/atlas-smiling-school-javascript",
-      website: "https://svitlanapavl.github.io/atlas-smiling-school-javascript/",
+      website: "https://svitlanapavl.github.io/atlas-smiling-school/",
     },
     {
       name: "AirBnb Clone - The Console",
@@ -341,7 +341,7 @@ import {
     {
       name: "Simple Shell",
       description:
-        `This program is the recreation of the UNIX shell - a command line interpreter - that allows a user to interact with a computer by running commands or programs. The shell parses the commands and sends them to the operating system to perform. The project was done in partnership <a href="https://www.linkedin.com/in/mei-sibley/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Mei Sibley</a>`,
+        `This program is the recreation of the UNIX shell - a command line interpreter - that allows a user to interact with a computer by running commands or programs. The shell parses the commands and sends them to the operating system to perform. The project was done in partnership with <a href="https://www.linkedin.com/in/mei-sibley/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Mei Sibley</a>`,
       tags: [
         {
           name: "C",

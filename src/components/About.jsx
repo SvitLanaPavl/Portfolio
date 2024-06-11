@@ -39,7 +39,9 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Junior software development professional with hands-on experience in designing and building web applications using a range of technologies including HTML, CSS, SASS, Bootstrap, JavaScript, Node.js, and React. Familiar with developing and deploying backend systems and managing databases using Python, Flask, and MySQL.
+        
       </motion.p>
+      
       <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service}/>
