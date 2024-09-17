@@ -21,7 +21,7 @@ const Hero = () => {
         alt='Profile'
         className='mt-4 w-32 h-32 md:mt-0 md:w-48 md:h-48 rounded-full object-cover'
       />
-          <p className={`${styles.heroSubText} mt-2 text-white-100 ml-5 pl-5`}>Junior software developer <br className="sm:block hidden"/>with hands-on experience in designing and building websites and applications.
+          <p className={`${styles.heroSubText} mt-2 text-white-100 ml-5 pl-5`}>Software developer <br className="sm:block hidden"/>with hands-on experience in designing and building websites and applications.
           </p>
           </div>
           </div>

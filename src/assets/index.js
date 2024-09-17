@@ -29,7 +29,7 @@ import threejs from "./tech/threejs.svg";
 import visily from "./tech/visily.png";
 import jquery from "./tech/jquery.png";
 import firebase from "./tech/firebase.png";
-
+import victory from "./company/victory.png";
 import atlas from "./company/atlas.png";
 import first from "./company/first.jpeg";
 import ywca from "./company/ywca.webp";
@@ -77,5 +77,6 @@ export {
   smiling,
   link,
   shell,
-  profile_pic
+  profile_pic,
+  victory
 };

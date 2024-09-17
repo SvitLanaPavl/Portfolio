@@ -38,8 +38,7 @@ const About = () => {
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Junior software development professional with hands-on experience in designing and building web applications using a range of technologies including HTML, CSS, SASS, Bootstrap, JavaScript, Node.js, and React. Familiar with developing and deploying backend systems and managing databases using Python, Flask, and MySQL.
-        
+       Software development professional with a solid foundation in designing and building dynamic web applications. Adept at creating seamless user experiences and efficient backend systems, with a proven record of solving complex problems using modern technologies. Experienced in collaborating within a team to deliver solutions that meet objectives. Passionate about continuous learning and staying current with industry trends to produce impactful results in both frontend and backend development.
       </motion.p>
       
       <div className="mt-20 flex flex-wrap gap-10">

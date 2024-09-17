@@ -27,7 +27,8 @@ import {
     visily,
     firebase,
     smiling,
-    shell
+    shell,
+    victory
   } from "../assets";
   
   export const navLinks = [
@@ -132,6 +133,20 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Frontend Developer",
+      company_name: "Victory Christian Center",
+      icon: victory,
+      iconBg: "#383E56",
+      date: "July 2024 - Current",
+      points: [
+        "Debug and Maintain Current Websites",
+        "Create Web Applications to Query Data from Multiple Sources",
+        "Build Systems to Bridge Gaps Between 3rd Party Applications",
+        "Use and Interpret Third-Party APIs",
+        "Collaborate with Other Departments to Meet Ministry Objectives"
+      ],
+    },
     {
       title: "Student Full-Stack Developer",
       company_name: "Atlas School",
