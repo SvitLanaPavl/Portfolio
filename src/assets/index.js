@@ -22,7 +22,6 @@ import bootstrap from "./tech/bootstrap.jpg";
 import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -33,11 +32,13 @@ import victory from "./company/victory.png";
 import atlas from "./company/atlas.png";
 import first from "./company/first.jpeg";
 import ywca from "./company/ywca.webp";
-
+import cinema from './cinema.png'
 import consolee from "./consolee.png";
 import todo from "./todo.png";
 import winter from "./winter.png";
 import profile_pic from "./profile_pic.jpeg";
+import qa from './q&a.png';
+import redux from './redux.png';
 
 export {
   logo,
@@ -78,5 +79,7 @@ export {
   link,
   shell,
   profile_pic,
-  victory
+  victory,
+  cinema,
+  qa,
 };
