@@ -39,6 +39,8 @@ import winter from "./winter.png";
 import profile_pic from "./profile_pic.jpeg";
 import qa from './q&a.png';
 import redux from './redux.png';
+import kash from './Kash_Flying.png';
+import landing from './Trove_Landing.png';
 
 export {
   logo,
@@ -82,4 +84,6 @@ export {
   victory,
   cinema,
   qa,
+  kash,
+  landing
 };

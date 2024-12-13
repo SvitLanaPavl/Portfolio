@@ -31,7 +31,9 @@ import {
     victory,
     cinema,
     qa,
-    redux
+    redux,
+    kash,
+    landing
   } from "../assets";
   
   export const navLinks = [
@@ -203,6 +205,40 @@ import {
   
   const projects = [
     {
+      name: "Trove",
+      description:
+        `<b>Trove</b> is a financial literacy app helping families manage allowances, improve spending habits, and enhance financial education. It features a web app for parents to track finances and a mobile app for children to set goals and learn money management. Built with React, Tailwind CSS, Next.js, and React Native.`,
+      tags: [
+        {
+          name: "Next.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextAuth",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: landing,
+      source_code_link: "https://github.com/michaellgans/trove-capstone",
+      website: "https://trove-capstone.vercel.app/",
+    },
+    {
       name: "Cinema Guru",
       description:
         `<b>Cinema Guru</b> is a Next.js website for browsing movies, with filters by title, year, or search. It fetches data from Supabase to populate the homepage. Users can favorite movies or add them to a "Watch Later" list, and view their activity history.`,
@@ -329,13 +365,13 @@ import {
       website: "https://github.com/SvitLanaPavl/holbertonschool-simple_shell?tab=readme-ov-file",
     },
     {
-      name: "Winter In Tulsa",
+      name: "America's Natural Canvas",
       description:
-        `An interactive website focusing on tourism in Tulsa. The website curates engaging winter activities and provides users with key information about each event, all while promoting a festive, Christmasy atmosphere. The project was done in partnership with <a href="https://www.linkedin.com/in/ericdzyk/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Eric Dzyk</a>`,
+        `Fully functioning website/digital exhibit, created from scratch, with interactive features allowing users to search, select, and filter states based on climate types, it offers an engaging experience that captures the essence of America's breathtaking scenery. The database and deployment are hosted through Firebase, the interactive temperature range is achieved with Chart.js. The project was done in partnership with <a href="https://www.linkedin.com/in/c-r-stephens/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Christopher Stephens</a>`,
       tags: [
         {
           name: "HTML",
-          color: "orange-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "CSS",
@@ -346,17 +382,29 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Figma",
+          name: "Visily",
           color: "violet-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Responsive Web Design",
           color: "blue-text-gradient",
         },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "orange-text-gradient",
+        },
       ],
-      image: winter,
-      source_code_link: "https://github.com/SvitLanaPavl/Hacksprint-2023",
-      website: "https://svitlanapavl.github.io/Hacksprint-2023/",
+      image: natural,
+      source_code_link: "https://github.com/SvitLanaPavl/t3-final-garden_of_dreams",
+      website: "https://america-s-natural-canvas.web.app/",
     },
     {
       name: "Smiling School",
@@ -419,13 +467,13 @@ import {
       website: "https://github.com/SvitLanaPavl/holbertonschool-AirBnB_clone",
     },
     {
-      name: "America's Natural Canvas",
+      name: "Winter In Tulsa",
       description:
-        `Fully functioning website/digital exhibit, created from scratch, with interactive features allowing users to search, select, and filter states based on climate types, it offers an engaging experience that captures the essence of America's breathtaking scenery. The database and deployment are hosted through Firebase, the interactive temperature range is achieved with Chart.js. The project was done in partnership with <a href="https://www.linkedin.com/in/c-r-stephens/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Christopher Stephens</a>`,
+        `An interactive website focusing on tourism in Tulsa. The website curates engaging winter activities and provides users with key information about each event, all while promoting a festive, Christmasy atmosphere. The project was done in partnership with <a href="https://www.linkedin.com/in/ericdzyk/" target="_blank" style="font-weight: bold; color: #0073b1; rel="noopener noreferrer">Eric Dzyk</a>`,
       tags: [
         {
           name: "HTML",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "CSS",
@@ -436,29 +484,17 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Visily",
+          name: "Figma",
           color: "violet-gradient",
         },
         {
-          name: "Responsive Web Design",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
-        {
-          name: "JavaScript",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "JQuery",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "orange-text-gradient",
-        },
       ],
-      image: natural,
-      source_code_link: "https://github.com/SvitLanaPavl/t3-final-garden_of_dreams",
-      website: "https://america-s-natural-canvas.web.app/",
+      image: winter,
+      source_code_link: "https://github.com/SvitLanaPavl/Hacksprint-2023",
+      website: "https://svitlanapavl.github.io/Hacksprint-2023/",
     },
   ];
   
