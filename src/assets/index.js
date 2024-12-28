@@ -36,7 +36,7 @@ import cinema from './cinema.png'
 import consolee from "./consolee.png";
 import todo from "./todo.png";
 import winter from "./winter.png";
-import profile_pic from "./profile_pic.jpeg";
+import profile_pic from "./profile.JPG";
 import qa from './q&a.png';
 import redux from './redux.png';
 import kash from './Kash_Flying.png';

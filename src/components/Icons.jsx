@@ -22,7 +22,7 @@ const Icons = () => {
         <FontAwesomeIcon icon={faGithub} size="2x" className="transition-colors duration-200 group-hover:text-blue-400 p-1" />
       </a>
       <a 
-        href="https://drive.google.com/file/d/1-qbnZoJWvQW8T_MDnJi1Z5LLPAjq_PVy/view?usp=sharing" 
+        href="/Resume_Svitlana_Pavlovska.pdf" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="group text-white hover:text-blue-500"
